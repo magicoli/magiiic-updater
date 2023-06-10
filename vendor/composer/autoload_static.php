@@ -19,6 +19,7 @@ class ComposerStaticInit7ff59ef101bb77b6c9a83e097aeff323
         '25d0f987552e2e03d772984bd6b0ca61' => __DIR__ . '/../..' . '/lib/meta-box/meta-box-include-exclude/meta-box-include-exclude.php',
         '77471ad92a0f2aaa7cc6e3cd13ab0b90' => __DIR__ . '/../..' . '/lib/meta-box/meta-box-show-hide/meta-box-show-hide.php',
         '079469a8926f303185439cf983ba9720' => __DIR__ . '/../..' . '/lib/meta-box/meta-box-tabs/meta-box-tabs.php',
+        '4e7875574511cee5f8bb9515992595dd' => __DIR__ . '/../..' . '/lib/meta-box/meta-box-aio/meta-box-aio.php',
     );
 
     public static $prefixLengthsPsr4 = array (

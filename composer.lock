@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8eb1e92dc2cc88cab91f2b49e4217b0",
+    "content-hash": "8f20ba90711a6f48ae734a13412c8151",
     "packages": [
         {
             "name": "composer/installers",
@@ -403,6 +403,18 @@
                 "source": "https://github.com/magicoli/wp-package-updater-lib/tree/v1.0.4"
             },
             "time": "2023-06-10T19:55:33+00:00"
+        },
+        {
+            "name": "meta-box/meta-box-aio",
+            "version": "master",
+            "dist": {
+                "type": "zip",
+                "url": "https://metabox.io/?action=download&product=meta-box-aio&api_key=42ecdf32b0e76fe7766bc340ad82046b"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin"
         }
     ],
     "aliases": [],
@@ -417,7 +429,8 @@
         "meta-box/meta-box-group": 20,
         "meta-box/meta-box-include-exclude": 20,
         "meta-box/meta-box-show-hide": 20,
-        "meta-box/meta-box-tabs": 20
+        "meta-box/meta-box-tabs": 20,
+        "meta-box/meta-box-aio": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

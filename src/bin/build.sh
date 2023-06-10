@@ -8,7 +8,7 @@ minphp=$(minphp 2>/dev/null)
 [ "$minphp" =  "" ] && read -p "Test minimum PHP: " minphp
 php=$(minphp -x || which php)
 [ $php ] || exit $?
-
+php=php
 trap 'previous_command=$this_command; this_command=$BASH_COMMAND' DEBUG
 trap 'ret=$?; [ $ret -ne 0 ] && echo "$PGM: $previous_command failed (error $ret)" && exit $ret || echo "$PGM: success"' EXIT
 

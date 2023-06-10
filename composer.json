@@ -21,7 +21,8 @@
       }
     },
     "require-dev": {
-      "magicoli/wp-package-updater-lib": "^1.0"
+      "magicoli/wp-package-updater-lib": "^1.0",
+      "meta-box/meta-box-aio": "dev-master"
     },
     "require": {
         "wpmetabox/meta-box": "^5.6",
@@ -36,6 +37,11 @@
         "meta-box/meta-box-include-exclude": "dev-master",
         "meta-box/meta-box-show-hide": "dev-master",
         "meta-box/meta-box-tabs": "dev-master"
+    },
+    "autoload-dev": {
+      "files": [
+        "lib/meta-box/meta-box-aio/meta-box-aio.php"
+      ]
     },
     "autoload": {
       "files": [
@@ -54,7 +60,7 @@
       ]
     },
     "scripts": {
-      "build-wp-package-updater-lib" : "[ -f vendor/magicoli/wp-package-updater-lib/install.php ] && php vendor/magicoli/wp-package-updater-lib/install.php || echo skipping magicoli/wp-package-updater-lib, not installed",
+      "build-wp-package-updater-lib" : "[ -f no/vendor/magicoli/wp-package-updater-lib/install.php ] && php vendor/magicoli/wp-package-updater-lib/install.php || echo skipping magicoli/wp-package-updater-lib, not installed",
       "remove-git-submodules" : "find vendor/ -mindepth 2 -type d -name .git | xargs rm -rf; rmdir vendor/* 2>/dev/null; echo cleaned",
       "post-update-cmd": [
         "@remove-git-submodules",
