@@ -28,6 +28,4 @@ However this project just started. So this plugin does nothing yet, or worst, do
 == Changelog ==
 
 = 0.1.0 =
-
-= 0.1.0 =
-* Initial commit
+* initial config and libraries, ready for real work

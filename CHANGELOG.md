@@ -1,8 +1,4 @@
 ## Changelog
 
 ### 0.1.0
-
-### 0.1.0
-
-### 0.1.0
-- Initial commit
+- initial config and libraries, ready for real work
