@@ -9,7 +9,8 @@ node_modules/
 *.sql
 *.tar.gz
 *.zip
-/vendor/*
+/vendor/composer/installers*
+/vendor/magicoli
 !vendor/autoload.php
 !vendor/composer/*.*
 !vendor/composer/LICENSE

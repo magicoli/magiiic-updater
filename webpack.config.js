@@ -5,10 +5,10 @@ const CopyPlugin    = require( "copy-webpack-plugin" );
 // Configuration object.
 const config = {
 	...defaultConfig,
-	entry: {
-		'../admin/admin': './src/admin/index.js',
-		'../public/public': './src/public/index.js',
-	},
+	// entry: {
+	// '../admin/admin': './src/admin/index.js',
+	// '../public/public': './src/public/index.js',
+	// },
 	output: {
 		filename: '[name].js',
 		// Specify the path to the JS files.

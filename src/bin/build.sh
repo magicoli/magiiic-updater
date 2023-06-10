@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ignore="vendor/*,node_modules/*,lib/wp-package-updater-lib/wp-package-updater,lib/wp-package-updater-lib/plugin-update-checker/,sources/,*.asset.php,*/*/*.asset.php,*.map,includes/fullcalendar/fullcalendar.*"
+ignore="vendor/*,node_modules/*,lib/meta-box,lib/wp-package-updater-lib/wp-package-updater,lib/wp-package-updater-lib/plugin-update-checker/,sources/,*.asset.php,*/*/*.asset.php,*.map,includes/fullcalendar/fullcalendar.*"
 
 PGM=$(basename $0)
 minphp=$(minphp 2>/dev/null)
@@ -18,6 +18,7 @@ phpcs -p . --standard=PHPCompatibility --ignore=$ignore,*js,*css --runtime-set t
 && { phpcbf --standard=WordPress --ignore=$ignore ./ || phpcbf --standard=WordPress --ignore=$ignore ./ ; } \
 && echo "# $minphp composer update" \
 && $php /usr/local/bin/composer update --no-dev \
-&& echo npm temporarily disabled
-# && echo "# npm build" \
-# && npm run build
+&& echo "# npm build" \
+&& npm run build
+
+mkdir -p build; rmdir --ignore-fail-on-non-empty build
