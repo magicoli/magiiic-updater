@@ -16,9 +16,6 @@
 require plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
 if ( file_exists( __DIR__ . '/lib/package-updater.php' ) ) {
-	unset( $wppul_server );
-	unset( $wppul_licence_required );
-	unset( $wppul_plugin_file );
 	$wppul_server = 'https://magiiic.com';
 	include_once __DIR__ . '/lib/package-updater.php';
 }
