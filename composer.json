@@ -54,10 +54,11 @@
       ]
     },
     "scripts": {
+      "build-wp-package-updater-lib" : "[ -f vendor/magicoli/wp-package-updater-lib/install.php ] && php vendor/magicoli/wp-package-updater-lib/install.php || echo skipping magicoli/wp-package-updater-lib, not installed",
       "remove-git-submodules" : "find vendor/ -mindepth 2 -type d -name .git | xargs rm -rf; rmdir vendor/* 2>/dev/null; echo cleaned",
       "post-update-cmd": [
         "@remove-git-submodules",
-        "[ -f vendor/magicoli/wp-package-updater-lib/install.php ] && php vendor/magicoli/wp-package-updater-lib/install.php || echo skipping magicoli/wp-package-updater-lib, not installed"
+        "@build-wp-package-updater-lib"
       ]
     },
     "config": {
