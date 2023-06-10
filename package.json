@@ -1,17 +1,40 @@
-
 {
   "name": "magiiic-updater",
   "version": "0.1.0",
-  "main": "Gruntfile.js",
+  "license": "AGPL-3.0-or-later",
+  "main": "webpack.config.js",
   "author": "Magiiic",
-  "scripts" : {
-    "start" : "grunt default" ,
-    "readme" : "grunt readme",
-    "i18n" : "grunt i18n"
+  "homepage": "https://github.com/magicoli/magiiic-updater",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magicoli/magiiic-updater"
+  },
+  "bugs": {
+    "url": "https://github.com/magicoli/magiiic-updater/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties"
+      ]
+    ]
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
   },
   "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-wp-i18n": "~0.5.0",
-    "grunt-wp-readme-to-markdown": "~1.0.0"
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@wordpress/scripts": "^22.1.0",
+    "php-loader": "^0.2.0"
   }
 }
