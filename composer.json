@@ -1,0 +1,19 @@
+{
+    "name": "magicoli/magiiic-updater",
+    "description": "Deliver updates for plugins provided my https://magiiic.com",
+    "type": "wordpress-plugin",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Magiiic"
+        }
+    ],
+    "require": {
+        "magicoli/wp-package-updater-lib": "^1.0"
+    },
+    "scripts": {
+      "post-update-cmd": [
+        "php vendor/magicoli/wp-package-updater-lib/install.php"
+      ]
+    }
+}

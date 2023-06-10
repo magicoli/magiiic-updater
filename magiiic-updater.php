@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Magiiic Updater
- * Plugin URI:      PLUGIN SITE HERE
+ * Plugin URI:      https://magiiic.com
  * Description:     Deliver updates for plugins provided my https://magiiic.com
  * Author:          Magiiic
  * Author URI:      https://magiiic.com
