@@ -18,5 +18,4 @@ return array(
     '25d0f987552e2e03d772984bd6b0ca61' => $baseDir . '/lib/meta-box/meta-box-include-exclude/meta-box-include-exclude.php',
     '77471ad92a0f2aaa7cc6e3cd13ab0b90' => $baseDir . '/lib/meta-box/meta-box-show-hide/meta-box-show-hide.php',
     '079469a8926f303185439cf983ba9720' => $baseDir . '/lib/meta-box/meta-box-tabs/meta-box-tabs.php',
-    '4e7875574511cee5f8bb9515992595dd' => $baseDir . '/lib/meta-box/meta-box-aio/meta-box-aio.php',
 );

@@ -3,11 +3,11 @@
         'name' => 'magicoli/magiiic-updater',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'fa906ae19c36ea6c260dc42b0bcd7607e0b2afe5',
+        'reference' => '5aab4142db9a4d4e9939b912db3fd0606165a9e8',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         'composer/installers' => array(
@@ -22,20 +22,11 @@
         'magicoli/magiiic-updater' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'fa906ae19c36ea6c260dc42b0bcd7607e0b2afe5',
+            'reference' => '5aab4142db9a4d4e9939b912db3fd0606165a9e8',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
-        ),
-        'magicoli/wp-package-updater-lib' => array(
-            'pretty_version' => 'v1.1.1',
-            'version' => '1.1.1.0',
-            'reference' => '80451e8380b0675ccbbc107d637f1a6213e2f6f9',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../magicoli/wp-package-updater-lib',
-            'aliases' => array(),
-            'dev_requirement' => true,
         ),
         'meta-box/mb-admin-columns' => array(
             'pretty_version' => 'master',
@@ -72,15 +63,6 @@
             'install_path' => __DIR__ . '/../../lib/meta-box/mb-settings-page',
             'aliases' => array(),
             'dev_requirement' => false,
-        ),
-        'meta-box/meta-box-aio' => array(
-            'pretty_version' => 'master',
-            'version' => 'dev-master',
-            'reference' => NULL,
-            'type' => 'wordpress-plugin',
-            'install_path' => __DIR__ . '/../../lib/meta-box/meta-box-aio',
-            'aliases' => array(),
-            'dev_requirement' => true,
         ),
         'meta-box/meta-box-columns' => array(
             'pretty_version' => 'master',

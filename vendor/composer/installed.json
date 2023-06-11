@@ -149,43 +149,6 @@
             "install-path": "./installers"
         },
         {
-            "name": "magicoli/wp-package-updater-lib",
-            "version": "v1.1.1",
-            "version_normalized": "1.1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magicoli/wp-package-updater-lib.git",
-                "reference": "80451e8380b0675ccbbc107d637f1a6213e2f6f9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magicoli/wp-package-updater-lib/zipball/80451e8380b0675ccbbc107d637f1a6213e2f6f9",
-                "reference": "80451e8380b0675ccbbc107d637f1a6213e2f6f9",
-                "shasum": ""
-            },
-            "require-dev": {
-                "froger-me/wp-plugin-update-server": "*"
-            },
-            "time": "2023-06-10T23:50:27+00:00",
-            "type": "library",
-            "installation-source": "dist",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "AGPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Magiiic"
-                }
-            ],
-            "description": "Composer package for wp-package-updater library.",
-            "support": {
-                "issues": "https://github.com/magicoli/wp-package-updater-lib/issues",
-                "source": "https://github.com/magicoli/wp-package-updater-lib/tree/v1.1.1"
-            },
-            "install-path": "../magicoli/wp-package-updater-lib"
-        },
-        {
             "name": "meta-box/mb-admin-columns",
             "version": "master",
             "version_normalized": "dev-master",
@@ -244,21 +207,6 @@
             "type": "wordpress-plugin",
             "installation-source": "dist",
             "install-path": "../../lib/meta-box/mb-settings-page"
-        },
-        {
-            "name": "meta-box/meta-box-aio",
-            "version": "master",
-            "version_normalized": "dev-master",
-            "dist": {
-                "type": "zip",
-                "url": "https://metabox.io/?action=download&product=meta-box-aio&api_key=42ecdf32b0e76fe7766bc340ad82046b"
-            },
-            "require": {
-                "composer/installers": "~1.0 || ~2.0"
-            },
-            "type": "wordpress-plugin",
-            "installation-source": "dist",
-            "install-path": "../../lib/meta-box/meta-box-aio"
         },
         {
             "name": "meta-box/meta-box-columns",
@@ -454,9 +402,6 @@
             "install-path": "../../lib/meta-box/meta-box"
         }
     ],
-    "dev": true,
-    "dev-package-names": [
-        "magicoli/wp-package-updater-lib",
-        "meta-box/meta-box-aio"
-    ]
+    "dev": false,
+    "dev-package-names": []
 }

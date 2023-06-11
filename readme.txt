@@ -5,7 +5,7 @@ Tags: comments, spam
 Requires at least: 4.5
 Tested up to: 6.2.2
 Requires PHP: 5.7
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: AGPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,9 @@ However this project just started. So this plugin does nothing yet, or worst, do
 * run update code for those plugins
 
 == Changelog ==
+
+= 0.1.1 =
+* proof of concept with an hardcoded list of managed plugins
 
 = 0.1.0 =
 * initial config and libraries, ready for real work
