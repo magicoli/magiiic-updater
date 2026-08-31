@@ -1,4 +1,10 @@
-# Magiiic Updater
+# Magiiic Updater [DEPRECATED]
+
+This repo is deprecated. Project has been split in 3 projects
+
+- magicoli/mum-multi-package : this client, starting from 2.x
+- magicoli/mum-server : UpdatePulse companion to handle mum specifics
+- magicoli/mum-project : meta project including dev tools and the 2 plugins
 
 ![Stable 0.1.1](https://badgen.net/badge/Stable/0.1.1/00aa00)
 ![WordPress 4.5 - 6.2.2](https://badgen.net/badge/WordPress/4.5%20-%206.2.2/3858e9)
@@ -20,4 +26,3 @@ However this project just started. So this plugin does nothing yet, or worst, do
 - fetch available plugins from wppus
 - fetch installed plugins, filter those handled by wppus
 - run update code for those plugins
-
